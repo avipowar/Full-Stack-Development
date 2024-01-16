@@ -1,0 +1,18 @@
+.color-palette-heading{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.color-box{
+    padding: 20PX;
+}
+
+.color-name{
+    color: WHITE;
+    font-size: 20PX;
+}
+
+.column-spacing{
+    margin-bottom: 10px;
+}

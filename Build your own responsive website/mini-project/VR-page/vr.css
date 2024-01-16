@@ -1,0 +1,46 @@
+.vr-logo{
+    height: 30px;
+}
+
+#nav-color1{
+    color: black;
+}
+
+#nav-color2{
+    color: black;
+}
+
+#nav-color3{
+    color: black;
+}
+
+#nav-color4{
+    color: black;
+}
+
+.vr-bg-container{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.vr-heading{
+    color: white;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: "Roboto";
+    text-decoration: underline;
+}
+
+.View-more-btn{
+    height: 48px;
+    width: 120px;
+    color: white;
+    background-color: #1a2137;
+    border-width: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: "Roboto";
+    border-radius: 6px;
+    padding: 2px;
+}

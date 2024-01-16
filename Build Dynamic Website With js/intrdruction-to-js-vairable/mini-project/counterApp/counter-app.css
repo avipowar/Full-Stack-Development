@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+ 
+.bg-container {
+  height: 100vh;
+  background-color: #343a40;
+}
+.counter-heading {
+  color: white;
+  font-size: 80px;
+  font-family: "Roboto";
+  font-weight: 800;
+}
+ 
+.counter-value {
+  color: white;
+  font-size: 120px;
+  font-weight: 600;
+  font-family: "Roboto";
+}
+ 
+.button {
+  margin: 4px;
+  border-radius: 6px;
+  /* padding: 5px; */
+  border-width: 2px;
+  border-color: white;
+  background-color: #f1f5f8;
+  height: 50px;
+  width: 140px;
+  border-width: 0;
+  font-size: 24px;
+  font-family: "Roboto";
+  color: white;
+  font-weight: 510;
+}
+
+.button1 {
+    background-color: #dc3545; /* Bootstrap danger color for DECREASE button */
+  }
+  
+.button2 {
+background-color: #007bff; /* Bootstrap primary color for RESET button */
+}
+
+.button3 {
+background-color: #28a745; /* Bootstrap success color for INCREASE button */
+margin-bottom: 10px; /* Add margin-bottom to the last button */
+}
+
+.button-feedback{
+  margin: 8px;
+  border-radius: 6px;
+  padding: 5px;
+  border-width: 2px;
+  border-color: white;
+  background-color: black;
+  height: 60px;
+  width: 200px;
+  border-width: 0;
+  font-size: 24px;
+  font-family: "Roboto";
+  color: white;
+  font-weight: 40;
+}

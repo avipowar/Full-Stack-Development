@@ -1,0 +1,45 @@
+.detailed-view-bg-container{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    height: 100vh;
+    background-size: cover;
+    /* padding: 40px; */
+}
+
+.detailed-view-heading{
+    color: white;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: bold;
+    /* border: 2px solid red; */
+    padding-top: 15px;
+    padding-left:30px;
+}
+
+.detailed-view-card-container{
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* border: 2px solid red; */
+    margin: 30px;
+    /* margin-bottom: 20px; */
+
+}
+
+
+.detailed-view-text-container{
+    padding: 16px;
+    /* margin: 30px; */
+}
+
+.detailed-view-card-heading{
+    color: #0f0e46;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.detailed-view-card-description{
+    font-family: Roboto;
+    color: #6c6b70;
+    font-size: 14px;
+}

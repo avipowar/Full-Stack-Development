@@ -1,0 +1,21 @@
+.vr-kit-section-page{
+    background-color: #f9fbfe;
+}
+.vr-kit-section-heading{
+    color: #1f2933;
+    font-size: 28px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.vr-kit-card-img{
+    height: 250px;
+    width: 200px;
+}
+
+.vr-kit-card-title{
+    color:  #323f4b;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Roboto";
+}

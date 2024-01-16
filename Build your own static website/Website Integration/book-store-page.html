@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> 
+        <link rel="stylesheet" href="/book-store-page.css">
+<!-- #1b1b1b
+#e6f6ff
+
+#06070d
+#9aa5b1
+#e4e7eb
+#183b56 -->
+    </head>
+    <body>
+
+        <div id="sectionBookStoreHomePage">
+            <div class="book-store-bg-container">
+
+                <div class="popular-book-section">
+                    <h1 class="popular-book-section-heading">
+                        Popular Book
+                    </h1>
+                    <div class="popular-book-section-card d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="wings-of-fire-img">
+
+                        <div class="popular-book-section-card-description">
+                            <h1 class="popular-book-section-card-description-heading">
+                                Wings Of Fire
+                            </h1>
+                            <p class="popular-book-section-card-sub-desc">
+                                An Autobiography of Abdul Kalam
+                            </p>
+                            <p class="Writer-name">
+                                by Arun Tiwari
+                            </p>
+                            <button class=" read-more btn bg-primary" onclick="display('sectionwingsOfFireDetailed')">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popular-book-section">
+                    <h1 class="popular-book-section-heading">
+                        Recommended Books
+                    </h1>
+                    <div class="popular-book-section-card-1 d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="wings-of-fire-img">
+
+                        <div class="popular-book-section-card-description">
+                            <h1 class="popular-book-section-card-description-heading-1">
+                               The 3 mistakes of my life
+                            </h1>
+                            <p class="popular-book-section-card-sub-desc-1">
+                                Indian author </br>
+                                by Chetan Bhagat
+
+                            </p>
+                            <p class="popular-book-section-card-sub-desc-1">
+                                <!-- by Chetan Bhagat -->
+                            </p>
+                            <button class=" read-more btn bg-primary" onclick="display('sectionchetanBagatDetailed')">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popular-book-section">
+                    <div class="popular-book-section-card-1 d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="wings-of-fire-img">
+
+                        <div class="popular-book-section-card-description">
+                            <h1 class="popular-book-section-card-description-heading-1">
+                               Harry Potter
+                            </h1>
+                            <p class="popular-book-section-card-sub-desc-1">
+                                An Autobiography of Abdul Kalam </br>
+                                by Arun Tiwari
+                            </p>
+                            <p class="popular-book-section-card-sub-desc-1">
+                                
+                            </p>
+                            <button class=" read-more btn bg-primary" onclick="display('sectionarunTiwariDetailed')">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="sectionarunTiwariDetailed">
+            <div class="book-store-bg-container">
+                <div class="book-deatl-page text-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" alt="">
+                    <h1 class="detailed-view-heading">
+                        Harry Potter
+                    </h1>
+                    <p class="Writer-name-1">
+                        by Arun Tiwari
+                    </p>
+                    <p class="detailed-view-desc">
+                        Every common man who by his sheer grit and hard work achieves success should share his story with the rest for they may find inspiration and strength to go on, in his story. The 'Wings of Fire' is one such autobiography by visionary scientist Dr. APJ Abdul Kalam, who from very humble beginnings rose to be the President of India. The book is full of insights, personal success. Dr. Kalam by narrating his life journey evokes the reader to identify with one's inner fire and potential, for he was of the firm belief that each one of us was born with the strength and potential to make a tangible change in the world. How he inspired himself to achieve dreams and how he went about accomplishing so much is what the book captures nicely. The book recollects many anecdotes and stories from childhood, his time at school and college. The time spent at the Langley Research Center, NASA and Wallops Flight Facility gets a lot of attention.
+                    </p>
+                    <button class="btn btn-warning" onclick="display('sectionBookStoreHomePage')">
+                        back
+                    </button>
+                    <button class="btn btn-primary">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="sectionchetanBagatDetailed">
+            <div class="book-store-bg-container">
+                <div class="book-deatl-page text-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" alt="">
+                    <h1 class="detailed-view-heading">
+                        The 3 mistakes of my life
+                    </h1>
+                    <p class="Writer-name-1">
+                        by Chetan Bhagat
+                    </p>
+                    <p class="detailed-view-desc">
+                        Every common man who by his sheer grit and hard work achieves success should share his story with the rest for they may find inspiration and strength to go on, in his story. The 'Wings of Fire' is one such autobiography by visionary scientist Dr. APJ Abdul Kalam, who from very humble beginnings rose to be the President of India. The book is full of insights, personal success. Dr. Kalam by narrating his life journey evokes the reader to identify with one's inner fire and potential, for he was of the firm belief that each one of us was born with the strength and potential to make a tangible change in the world. How he inspired himself to achieve dreams and how he went about accomplishing so much is what the book captures nicely. The book recollects many anecdotes and stories from childhood, his time at school and college. The time spent at the Langley Research Center, NASA and Wallops Flight Facility gets a lot of attention.
+                    </p>
+                    <button class="btn btn-warning" onclick="display('sectionBookStoreHomePage')">
+                        back
+                    </button>
+                    <button class="btn btn-primary">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="sectionwingsOfFireDetailed">
+            <div class="book-store-bg-container">
+                <div class="book-deatl-page text-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="deatile-viwe-img" alt="">
+                    <h1 class="detailed-view-heading">
+                        Wings Of Fire
+                    </h1>
+                    <p class="Writer-name-1">
+                        by Arun Tiwari
+                    </p>
+                    <p class="detailed-view-desc">
+                        Every common man who by his sheer grit and hard work achieves success should share his story with the rest for they may find inspiration and strength to go on, in his story. The 'Wings of Fire' is one such autobiography by visionary scientist Dr. APJ Abdul Kalam, who from very humble beginnings rose to be the President of India. The book is full of insights, personal success. Dr. Kalam by narrating his life journey evokes the reader to identify with one's inner fire and potential, for he was of the firm belief that each one of us was born with the strength and potential to make a tangible change in the world. How he inspired himself to achieve dreams and how he went about accomplishing so much is what the book captures nicely. The book recollects many anecdotes and stories from childhood, his time at school and college. The time spent at the Langley Research Center, NASA and Wallops Flight Facility gets a lot of attention.
+                    </p>
+                    <button class="btn btn-warning" onclick="display('sectionBookStoreHomePage')">
+                        back
+                    </button>
+                    <button class="btn btn-primary">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+        <!-- CCBP UI KIT -->
+        <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    </body>
+</html>

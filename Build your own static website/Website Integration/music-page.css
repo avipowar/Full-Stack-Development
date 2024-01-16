@@ -1,0 +1,100 @@
+.music-home-page-bg-container{
+    background-color: #03174c;
+    height: 140vh;
+}
+
+.music-header-bg-container{
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-stars-bg.png);
+    height: 50vh;
+    background-size: cover;
+    padding: 30px;
+}
+
+.music-heading{
+    font-size: 34px;
+    font-family: Bree serif;
+    color:white;
+    font-weight: bold;
+}
+
+.music-description{
+    columns: #ffe7bf;
+    font-family: Bree serif;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.night-island-card{
+    padding: 20px;
+}
+
+.night-island-bg-container{
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png);
+    height: 50vh;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.night-island-heading{
+    font-size: 38px;
+    color:white;
+    font-weight: bold;
+    font-family: Bree serif;
+}
+
+.get-started-btn{
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+    background-color: #8e97fd;
+    font-family: Bree serif;
+}
+
+/* music-detailed-header-bg-container */
+
+.music-detailed-header-bg-container{
+    background-color: #03174c;
+    height: 150vh;
+}
+
+.header-image{
+   background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png');
+   /* background-size: cover; */
+   /* height: 64.8vh; */
+   width: 100vw;
+   height: 50vh;
+}
+
+.music-detailed-putter-bg-container {
+    /* margin: 10px; */
+    padding: 20px;
+    /* border: 2px solid red; */
+}
+
+.related-card-1-image{
+    width: 40vh;
+}
+
+.related-card-heading{
+    font-size: 24px;
+    font-family: Bree serif;
+    color:white;
+    font-weight: bold;
+}
+
+.related-card-description{
+    color: white;
+    font-family: Bree serif;
+    font-weight: 400;
+}
+
+.related-card-1{
+    margin-right: 15px;
+}

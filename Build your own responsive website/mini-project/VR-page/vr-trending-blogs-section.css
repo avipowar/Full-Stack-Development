@@ -1,0 +1,39 @@
+.vr-trending-blog-section-heading{
+    color: #1f2933;
+    font-family: "ROboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.vr-trending-blog-card-sub-title{
+    color: #959ead;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Roboto";
+
+}
+
+.vr-trending-blog-card-description{
+    color: #323f4b;
+    font-family: "Roboto";
+    /* font-weight: 700; */
+    font-size: 22px;
+}
+
+.vr-trending-blog-card-link{
+    color: #1754a1;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.View-all-btn{
+    background-color: #1752a1;
+    border-width: 0;
+    color: white;
+    height: 58px;
+    width: 170px;
+    font-family: "Roboto";
+    font-size: 24px;
+    border-radius: 6px;
+}
